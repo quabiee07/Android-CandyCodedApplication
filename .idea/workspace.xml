@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="0b7633b6-91c2-4d9c-80c2-5897a3f35d39" name="Default Changelist" comment="Added a new Intent">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/InfoActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pluralsight/candycoded/MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +45,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -48,6 +55,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1i04KpSGGIr7jRoFFZWpFe1Dw6h" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -158,7 +168,30 @@
       <option name="presentableId" value="Default" />
       <updated>1572482991570</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added a new Intent">
+      <created>1601076429747</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601076429747</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added a new Intent" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a new Intent" />
   </component>
   <component name="WindowStateProjectService">
     <state x="200" y="96" key="#PSD" timestamp="1601033431887">
@@ -177,25 +210,37 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="263" y="19" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1366.728@0.0.1366.728" timestamp="1601032531045" />
-    <state width="1306" height="223" key="GridCell.Tab.0.bottom" timestamp="1601075880348">
+    <state x="884" y="181" key="AndroidCreateXmlResourceDialog" timestamp="1601077967349">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601075880348" />
-    <state width="1306" height="223" key="GridCell.Tab.0.center" timestamp="1601075880348">
+    <state x="884" y="181" key="AndroidCreateXmlResourceDialog/0.0.1366.728@0.0.1366.728" timestamp="1601077967349" />
+    <state x="447" y="0" key="CommitChangelistDialog2" timestamp="1601076798453">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601075880348" />
-    <state width="1306" height="223" key="GridCell.Tab.0.left" timestamp="1601075880348">
+    <state x="447" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1601076798453" />
+    <state width="635" height="226" key="GridCell.Tab.0.bottom" timestamp="1601077456061">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601075880348" />
-    <state width="1306" height="223" key="GridCell.Tab.0.right" timestamp="1601075880348">
+    <state width="635" height="226" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601077456061" />
+    <state width="635" height="226" key="GridCell.Tab.0.center" timestamp="1601077456061">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601075880348" />
+    <state width="635" height="226" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601077456061" />
+    <state width="635" height="226" key="GridCell.Tab.0.left" timestamp="1601077456061">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="635" height="226" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601077456061" />
+    <state width="635" height="226" key="GridCell.Tab.0.right" timestamp="1601077456061">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="635" height="226" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601077456061" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1601073988777">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1601073988777" />
+    <state x="833" y="284" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601076854367">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="833" y="284" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1601076854367" />
   </component>
 </project>
